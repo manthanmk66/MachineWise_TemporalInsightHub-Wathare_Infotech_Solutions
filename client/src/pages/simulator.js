@@ -7,8 +7,8 @@ const SampleGenerator = () => {
   const generateSamples = () => {
     const newSamples = [];
 
-    // Generate 10 sample data points
-    for (let i = 0; i < 10; i++) {
+    // Generate 20 sample data points
+    for (let i = 0; i < 20; i++) {
       // Generate random timestamp within the last 24 hours
       const timestamp = moment().subtract(
         Math.floor(Math.random() * 24),
@@ -27,16 +27,27 @@ const SampleGenerator = () => {
   };
 
   return (
-    <div>
-      <h2>Sample Generation Simulator</h2>
-      <button onClick={generateSamples}>Generate Samples</button>
+    <div className="p-4 mt-20 bg-white rounded-lg shadow-md">
+      <h2 className="text-2xl font-semibold mb-4">
+        Sample Generation Simulator
+      </h2>
+      <button
+        className="py-2 px-6 rounded-lg text-sm font-medium text-white bg-teal-600"
+        onClick={generateSamples}
+      >
+        Generate Samples
+      </button>
       <div>
-        <h3>Generated Samples</h3>
+        <h3 className="text-lg font-semibold mt-5 mb-2">
+          Here are the Generated Samples
+        </h3>
         <ul>
           {samples.map((sample, index) => (
-            <li key={index}>
-              Timestamp: {sample.timestamp.format("YYYY-MM-DD HH:mm:ss")},
-              Value: {sample.value.toFixed(2)}
+            <li key={index} className="mb-2">
+              <span className="font-semibold">Timestamp:</span>{" "}
+              {sample.timestamp.format("YYYY-MM-DD HH:mm:ss")},{" "}
+              <span className="font-semibold">Value:</span>{" "}
+              {sample.value.toFixed(2)}
             </li>
           ))}
         </ul>

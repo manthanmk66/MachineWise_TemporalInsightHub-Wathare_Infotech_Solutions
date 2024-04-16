@@ -133,21 +133,21 @@ const ChartComponent = () => {
             />
           </div>
           <h2 className="pt-12">Summary</h2>
-          <table>
-            <thead>
+          <table className="mt-4">
+            <thead className="">
               <tr>
-                <th>Number of 1s</th>
-                <th>Number of 0s</th>
-                <th>Max Continuous 0s</th>
-                <th>Max Continuous 1s</th>
+                <th className="px-4 py-2">Number of 1s</th>
+                <th className="px-4 py-2">Number of 0s</th>
+                <th className="px-4 py-2">Max Continuous 0s</th>
+                <th className="px-4 py-2">Max Continuous 1s</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>{summaryData.onesCount}</td>
-                <td>{summaryData.zerosCount}</td>
-                <td>{summaryData.maxContinuousZeros}</td>
-                <td>{summaryData.maxContinuousOnes}</td>
+                <td className="px-4 py-2">{summaryData.onesCount}</td>
+                <td className="px-4 py-2">{summaryData.zerosCount}</td>
+                <td className="px-4 py-2">{summaryData.maxContinuousZeros}</td>
+                <td className="px-4 py-2">{summaryData.maxContinuousOnes}</td>
               </tr>
             </tbody>
           </table>

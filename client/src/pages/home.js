@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <div className="flex justify-center pt-1 ">
-        <h1 className="font-bold py-1 pr-10 ">
+        <h1 className="font-bold text-2xl py-1 pr-10 ">
           Machine Wise Temporal Insight Hub
         </h1>
         <a
