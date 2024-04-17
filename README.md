@@ -2,7 +2,7 @@
 
 ### Importing Raw Sample Data to a DB Collection
 
-To begin, we imported a raw sample dataset into a MongoDB collection. The dataset is structured with timestamps indicating when each sample was recorded.
+To begin, I imported a raw sample dataset into a MongoDB collection. The dataset is structured with timestamps indicating when each sample was recorded.
 
 ### Horizontal Time Scale
 
@@ -20,6 +20,9 @@ A summary of the dataset is generated in tabular format. It includes the counts 
 
 In addition to the sample data visualization, we integrated a real-time weather API. This API allows users to fetch current weather conditions for any city. Users can input a city name, and the application will display the current weather details.
 
+Github link--> https://github.com/manthanmk66/Weather-App-Miniproject
+Live Link  --> https://manthanweatherapp.netlify.app/
+
 ### Error Handling
 
 To enhance user experience, we implemented error handling in case there are issues with fetching data from the API. If there is a problem retrieving data, an error message is displayed to the user, informing them of the issue and suggesting possible solutions.
@@ -34,7 +37,7 @@ For added functionality, we implemented a sample generation simulator in React. 
 - React for frontend development
 - Chart.js for data visualization
 - Real-time Weather API for weather data retrieval
-- JavaScript (Node.js) for backend development
+- JavaScript (Node.js Express.js) for backend development
 - Tailwind CSS for styling
 
 With these features, users can visualize and analyze the imported sample data, fetch real-time weather information, and generate simulated data for testing purposes. Error handling ensures a smoother user experience by addressing potential issues with data retrieval.
