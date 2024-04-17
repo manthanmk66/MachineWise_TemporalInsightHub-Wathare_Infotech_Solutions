@@ -13,6 +13,6 @@ exports.connect = () => {
       console.log("DB connected successfully");
     })
     .catch((err) => {
-      console.log("DB connection error:", err);
+      console.log("DB connection issue:", err);
     });
 };

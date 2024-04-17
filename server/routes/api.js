@@ -13,17 +13,4 @@ router.get("/data", async (req, res) => {
   }
 });
 
-// POST request handler to add data
-router.post("/data", async (req, res) => {
-  try {
-    const newData = req.body; // Assuming the request body contains the data to be saved
-    const createdData = await DataModel.create(newData);
-    res.status(201).json(createdData);
-    console.log("Data Inserrted SuccesFully");
-  } catch (error) {
-    console.error("Error saving data:", error);
-    res.status(500).json({ message: "Internal server error" });
-  }
-});
-
 module.exports = router;

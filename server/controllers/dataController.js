@@ -1,6 +1,6 @@
 const DataModel = require("../models/data");
 
-// Controller function to handle GET request for fetching data
+
 exports.getData = async (req, res) => {
   try {
     // Fetch data from MongoDB using Mongoose model

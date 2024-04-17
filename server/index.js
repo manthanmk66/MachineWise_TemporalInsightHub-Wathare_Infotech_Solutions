@@ -3,15 +3,15 @@ const db = require("./config/databse");
 const apiRoutes = require("./routes/api");
 const cors = require("cors");
 
-const app = express(); // Initialize the Express app first
+const app = express(); 
 
-// Connect to MongoDB
+// Connect to MongoDB for Data
 db.connect();
 
 // Middleware
 app.use(express.json());
 
-// Enable CORS for all origins
+// CORS Setup
 app.use(
   cors({
     origin: "*",
@@ -23,4 +23,4 @@ app.use("/api", apiRoutes);
 
 // Start server
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
