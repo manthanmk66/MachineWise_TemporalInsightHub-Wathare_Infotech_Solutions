@@ -25,7 +25,13 @@ Github link--> https://github.com/manthanmk66/Weather-App-Miniproject
 
 Live Link  --> https://manthanweatherapp.netlify.app/
 
+
+
+![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/eaa02fdc-9f01-4310-8d60-ecce4c6b28fb)
+
+
 ### Error Handling
+
 
 To enhance user experience, we implemented error handling in case there are issues with fetching data from the API. If there is a problem retrieving data, an error message is displayed to the user, informing them of the issue and suggesting possible solutions.
 
