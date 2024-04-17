@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Line } from "react-chartjs-2";
 import Error from "../pages/errorpage";
+import Loader from "../assets/loader.gif";
 import Chart from "chart.js/auto";
 
 const ChartComponent = () => {
@@ -78,17 +79,15 @@ const ChartComponent = () => {
               data: machineStatusData,
               backgroundColor: machineStatusData.map((value) => {
                 if (value === 0)
-                  return "rgba(255, 255, 0, 0.2)";  // Yellow for 0
+                  return "rgba(255, 255, 0, 0.2)"; // Yellow for 0
                 else if (value === 1)
-                  return "rgba(0, 255, 0, 0.2)";    // Green for 1
+                  return "rgba(0, 255, 0, 0.2)"; // Green for 1
                 else return "rgba(255, 0, 0, 0.2)"; // Red for missing
               }),
               borderColor: machineStatusData.map((value) => {
-                if (value === 0)
-                  return "rgba(255, 255, 0, 1)"; 
-                else if (value === 1)
-                  return "rgba(0, 255, 0, 1)"; 
-                else return "rgba(255, 0, 0, 1)"; 
+                if (value === 0) return "rgba(255, 255, 0, 1)";
+                else if (value === 1) return "rgba(0, 255, 0, 1)";
+                else return "rgba(255, 0, 0, 1)";
               }),
               borderWidth: 1,
             },
@@ -108,9 +107,10 @@ const ChartComponent = () => {
   return (
     <div className="flex justify-center text-2xl">
       {isLoading ? (
-        <p>Loading data...</p>
+        // <p className="mt-40 text-bold">Loading data.....</p>
+        <img src={Loader} alt="Loading..." />
       ) : error ? (
-        <Error />   // Showing Error Page if there is problem in fetching data
+        <Error /> // Showing Error Page if there is problem in fetching data
       ) : (
         <div>
           <div className="ml-20 ">
