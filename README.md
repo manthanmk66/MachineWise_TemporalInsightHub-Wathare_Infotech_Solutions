@@ -5,6 +5,9 @@
 
 To begin, I imported a raw sample dataset into a MongoDB collection. The dataset is structured with timestamps indicating when each sample was recorded.
 
+![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/eaa02fdc-9f01-4310-8d60-ecce4c6b28fb)
+
+
 ### Horizontal Time Scale
 
 The data is plotted on a horizontal time scale, where each data point is positioned according to its timestamp.
@@ -24,10 +27,6 @@ In addition to the sample data visualization, we integrated a real-time weather 
 Github link--> https://github.com/manthanmk66/Weather-App-Miniproject
 
 Live Link  --> https://manthanweatherapp.netlify.app/
-
-
-
-![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/eaa02fdc-9f01-4310-8d60-ecce4c6b28fb)
 
 
 ### Error Handling
