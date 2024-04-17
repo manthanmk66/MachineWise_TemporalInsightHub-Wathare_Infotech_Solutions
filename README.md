@@ -21,6 +21,7 @@ A summary of the dataset is generated in tabular format. It includes the counts 
 In addition to the sample data visualization, we integrated a real-time weather API. This API allows users to fetch current weather conditions for any city. Users can input a city name, and the application will display the current weather details.
 
 Github link--> https://github.com/manthanmk66/Weather-App-Miniproject
+
 Live Link  --> https://manthanweatherapp.netlify.app/
 
 ### Error Handling
