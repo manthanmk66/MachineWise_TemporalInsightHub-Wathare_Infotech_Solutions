@@ -38,6 +38,7 @@ For added functionality, we implemented a sample generation simulator in React. 
 - Chart.js for data visualization
 - Real-time Weather API for weather data retrieval
 - JavaScript (Node.js Express.js) for backend development
+- Axios for Data Fetching from the Server
 - Tailwind CSS for styling
 
 With these features, users can visualize and analyze the imported sample data, fetch real-time weather information, and generate simulated data for testing purposes. Error handling ensures a smoother user experience by addressing potential issues with data retrieval.
