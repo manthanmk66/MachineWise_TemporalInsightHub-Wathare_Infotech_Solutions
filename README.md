@@ -54,8 +54,8 @@ With these features, users can visualize and analyze the imported sample data, f
 
 Sample Screenshots :
 ![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/7fad520a-2535-4f1e-b024-7b90736012aa)
-![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/b80f8008-908c-4f91-b095-e85dff34aa3f)
 ![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/d99fee5e-110f-4338-8393-d97cb08f628f)
+![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/b80f8008-908c-4f91-b095-e85dff34aa3f)
 ![image](https://github.com/manthanmk66/MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions/assets/101661638/594940eb-d6b4-4aac-b2aa-d206937a69c5)
 
 
