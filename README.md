@@ -42,5 +42,7 @@ For added functionality, we implemented a sample generation simulator in React. 
 - JavaScript (Node.js Express.js) for backend development
 - Axios for Data Fetching from the Server
 - Tailwind CSS for styling
+- Vercel for Frontend Deployment
+- Render for Backend Deployment
 
 With these features, users can visualize and analyze the imported sample data, fetch real-time weather information, and generate simulated data for testing purposes. Error handling ensures a smoother user experience by addressing potential issues with data retrieval.
