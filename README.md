@@ -1,6 +1,7 @@
-# MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions
+# MachineWise_TemporalInsightHub-Wathare_Infotech_Solutions 
+## Live Link - https://machine-wise-hosting.vercel.app/
 
-### Importing Raw Sample Data to a DB Collection
+### Importing Raw Sample Data to a DB Collection 
 
 To begin, I imported a raw sample dataset into a MongoDB collection. The dataset is structured with timestamps indicating when each sample was recorded.
 
